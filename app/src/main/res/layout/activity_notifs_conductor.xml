@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.proyecto.RutApp.Notifs_conductor">
+
+    <Button
+        android:id="@+id/AccidentBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Accidente"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TraficoBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/design_default_color_background"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Tráfico Pesado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AccidentBtn" />
+
+    <Button
+        android:id="@+id/FallaMecBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/design_default_color_background"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Falla Mecánica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TraficoBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

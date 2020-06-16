@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.proyecto.RutApp.Notifs_usuario">
+
+    <Button
+        android:id="@+id/recogidaColegioBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Recogida en colegio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recogidaCasaBtn" />
+
+    <Button
+        android:id="@+id/recogidaCasaBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Recogida en casa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llegadaColegioBtn" />
+
+    <Button
+        android:id="@+id/llegadaColegioBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Llegada a colegio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llegadaCasaBtn" />
+
+    <Button
+        android:id="@+id/llegadaCasaBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Llegada a casa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1B222E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
